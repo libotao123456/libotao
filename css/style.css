@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+#main {
+    width: 100%;
+    height: 660px;
+    background: url("../images/readyBg.jpg") no-repeat 0 -420px;
+    position: relative;
+}
+
+.keyCodeTips {
+    padding: 50px 0 0 150px;
+}
+
+.keyCodeTips div {
+    margin-bottom: 20px;
+}
+
+.keyCodeTips img {
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.img05 img {
+    float: left;
+}
+
+.keyCodeTips strong {
+    color: red;
+}
+
+.keyCodeTips i {
+    color: red;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.gameTime strong {
+    font-size: 18px;
+}
+
+.gameTime {
+    margin-left: 35px;
+}
+
+#startKeyCode {
+    width: 252px;
+    height: 66px;
+    margin: 40px 0 0 295px;
+    cursor: pointer;
+}
+
+#startKeyCode img {
+    position: absolute;
+}
+
+#startKeyCode:hover .none {
+    display: none;
+}
+
+.fanHuiBtn {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 81px;
+    height: 35px;
+    cursor: pointer;
+    display: none;
+}
+
+.fanHuiBtn img {
+    vertical-align: top;
+    position: absolute;
+}
+
+.fanHuiBtn img:nth-of-type(2) {
+    display: none;
+}
+
+.fanHuiBtn:hover img:nth-of-type(2) {
+    display: block;
+}
+
+.fanHuiBtn:hover img:nth-of-type(1) {
+    display: none;
+}
+
+.rMark {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 139px;
+    height: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+.rMark img {
+    vertical-align: top;
+}
+.rMark span {
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+}
+
+.pText {
+    width: 126px;
+    font-size: 24px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.smallPText {
+    width: 115px;
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 26px;
+}
+
+/*游戏倒计时区域*/
+.gameMaxTime {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
